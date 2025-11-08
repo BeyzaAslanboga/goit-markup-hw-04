@@ -172,6 +172,7 @@ h3 {
   background-position: center center;
   background-size: cover;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .icon-antenna,
 .icon-clock,
@@ -373,7 +374,10 @@ section.ourteam {
   position: relative;
   overflow: hidden;
 }
-
+.overlay-item {
+  position: relative;
+  overflow: hidden;
+}
 .overlay {
   position: absolute;
   top: 0;
